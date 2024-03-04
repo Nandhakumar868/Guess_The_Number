@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('image.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.overall-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 33%;
+}
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    width: 17%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0,0.5);
+}
+
+.container:hover{
+    background-color: rgb(105, 191, 202);
+    box-shadow: 5px 5px rgba(250, 8, 250, 0.5);
+}
+
+.numberGuess{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberGuess h3{
+    margin: 3px;
+}
+
+.numberGuess p{
+    margin: 3px;
+}
+
+.numberGuess button{
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: grey;
+}
+
+.numberGuess input[type="number"]{
+    margin: 3px;
+    width: 10vw;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 2px;
+    padding: 5px;
+}
+
+.numberGuess input[type="number"]:focus{
+    border-color: black;
+    border-width: 1px;
+}
+

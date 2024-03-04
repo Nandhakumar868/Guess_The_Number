@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="overall-container">
+        <div class="container">
+            <div class="header">
+                <h1>Guess The Number</h1>
+            </div>
+            <div class="numberGuess">
+                <h3>Enter a number from 1 to 15</h3>
+                <input type="number" id="numberinput" placeholder="Enter the number" min="1" max="15" maxlength="2" required>
+                <button id="numbersubmit">Submit</button>
+                <p>Tries Remaining : <span id="triesremaining">3</span></p>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
